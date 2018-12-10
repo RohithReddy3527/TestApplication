@@ -1,0 +1,119 @@
+html,body{
+    height: 100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    overflow: auto;
+  }
+  .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .resultdiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  .itemclass{
+      width:100%;
+      height:100%;
+      display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: fixed;
+  }
+  .list{
+    width:70%;
+    height:auto;
+    float:left;
+    border:1px solid #000000;
+    background-color:aliceblue;
+    margin-bottom: 43px;
+    margin-top:85px;
+    overflow: auto;
+   
+  }
+  body{
+    flex-grow: 1;
+    overflow: auto;
+    min-height: 2em;
+    
+}
+  .header{
+      width:100%;
+      background-color: rgb(1,169,130);
+      text-align: center;
+      flex-shrink: 0;
+      position: fixed;
+      top: 0px;
+      left:0px;
+      
+  }
+  .form{
+      padding-left: 100px;
+      margin:10px;
+  }
+  .value{
+      width: 10%;
+  }
+  .result{
+    width:30%;
+    height:auto;
+    float:left;
+    border:1px solid #000000;
+    background-color:rgb(232, 245, 200);
+    margin-bottom: 20px;
+    margin-top:85px;
+    overflow: auto;
+  }
+.chkbox{
+    margin-left:10px;
+    margin-right:15px;
+}
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(1,169,130);
+    color: white;
+    text-align: center;
+    position: fixed;
+    height:7%;
+    padding-bottom: 10px;
+    
+    
+ }
+ #cbox{
+     width:20px;
+     height:20px;
+     cursor: pointer;
+ }
+ /* .button{
+    background-color: #01a982;
+    color: white;
+    text-align: center;
+ } */
+ /* footer{
+    flex-shrink: 0;
+} */
+ .button {
+    background-color:  #01a982; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin:2px;
+    width: 100%;
+    font-size: 1rem;
+    
+}
+.button:hover{
+    color: antiquewhite;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
